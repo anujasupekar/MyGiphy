@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+}
+
+.searchCon
+
+#searchBox {
+	top: 50px;
+    left: 150px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #777;
+    position: relative;
+}
+
+.gifsContainer {
+    /*height: 800px;
+    width: 800px;*/
+    top: 150px;
+    /*border: 1px solid #777;*/
+    position: relative;
+}
+
+.mainHeader {
+	top: 10px;
+    left: 349px;
+    font-size: 30px;
+    position: relative;
+}
+
+#searchBtn {
+	top: 50px;
+    left: 190px;
+    height: 50px;
+    border: 2px solid #777;
+    position: relative;
+}
