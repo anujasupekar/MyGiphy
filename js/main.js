@@ -1,4 +1,4 @@
-var api_key = apikey;
+var api_key = 'YFeskElUi13DrHigzNb7wfYku9Y0brww';
 $(document).ready(main);
 
 function main(){
@@ -16,14 +16,12 @@ function gotAllTrending(trendingGifs, isSearchQuery) {
 	}
 
 	$("#loadBtn").click(function() {
-		console.log("load more pressed");
 		$("#loadBtn").hide();
 		getMoreGifsBasedOnSearch();
 	});	
 
 	$("#searchBtn").click(function() {
 		$(".gifsContainer").html('');
-		console.log("button pressed");
 		getGifsBasedOnSearch();
 	});
 }

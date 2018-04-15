@@ -13,10 +13,7 @@ body {
 }
 
 .gifsContainer {
-    /*height: 800px;
-    width: 800px;*/
     top: 150px;
-    /*border: 1px solid #777;*/
     position: relative;
 }
 
